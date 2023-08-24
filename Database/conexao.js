@@ -13,6 +13,7 @@ export default async function conectar(){
         database:"injmusic-bd"
     });
 
+    
     global.conexao = conexao;
 
     return conexao;
