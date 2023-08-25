@@ -18,7 +18,7 @@ app.use('/musica', rotaMusica);
 app.use('/material', rotaMaterial);
 app.use('/funcao', rotaFuncao);
 
-app.listen(3040, 'localhost', ()=>{
+app.listen(4041, 'localhost', ()=>{
     console.log('backend ouvindo em http://localhost:3040');
 });
 
