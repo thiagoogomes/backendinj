@@ -6,6 +6,7 @@ export default async function conectar(){
         return global.conexao;
     }
 
+    
     const conexao = await mysql.createConnection({
         host:"localhost",
         user:"aluno41-pfsii",
