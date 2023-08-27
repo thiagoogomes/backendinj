@@ -6,13 +6,13 @@ export default async function conectar(){
         return global.conexao;
     }
 
-    
+
     const conexao = await mysql.createConnection({
         host:"localhost",
         user:"aluno41-pfsii",
         port: 3306,
         password:"xFQgCV2A5RP3n2lj31yb",
-        database:"injmusic-bd"
+        database:"backendaluno41-pfsii"
     });
 
     
