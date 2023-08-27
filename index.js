@@ -25,8 +25,6 @@ app.listen(port, hostname, ()=>{
     console.log("Backend ouvindo:"  + hostname + ':' + port);
 });
 
-
-
 //app.listen(3040, 'localhost', ()=>{
 //    console.log('backend ouvindo em http://localhost:3040');
 //});
