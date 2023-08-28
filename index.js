@@ -12,11 +12,9 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(express.json());
 
-app.use('/integrante', rotaIntegrante);
-app.use('/evento', rotaEvento);
-app.use('/musica', rotaMusica);  
-app.use('/material', rotaMaterial);
-app.use('/funcao', rotaFuncao);
+app.use('/', function(req,res){
+    res.send('Teste')
+})
 
 const port=4041;  
 const hostname = '0.0.0.0';

@@ -1,7 +1,7 @@
 name: main.deploy
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "teste" ]
 
 jobs:   
   producao-deploy:
