@@ -44,7 +44,7 @@ export default class IntegranteBD {
     }
     //nome = ?,endereco = ?,bairro = ?,cidade = ?,uf = ?,telefone = ?,email = ?,funcaoid = ?
     async consultar(termo) {
-        let sql = "SELECT integrante.cpf, integrante.nome, integrante.endereco, integrante.bairro, integrante.cidade, integrante.uf, integrante.telefone, integrante.email, integrante. funcaoid, funcao.nome as funcaonome FROM `injmusic-bd`.integrante as integrante inner join funcao where funcao.id = integrante.funcaoid ";
+        let sql = "SELECT integrante.cpf, integrante.nome, integrante.endereco, integrante.bairro, integrante.cidade, integrante.uf, integrante.telefone, integrante.email, integrante. funcaoid, funcao.nome as funcaonome FROM integrante as integrante inner join funcao where funcao.id = integrante.funcaoid ";
         let valores;
         if (termo) {
             sql += " WHERE nome LIKE ?"
