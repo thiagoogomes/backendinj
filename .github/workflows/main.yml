@@ -6,7 +6,7 @@ on:
 jobs:   
   producao-deploy:
     env:
-      USUARIO: aluno41-pfsii+
+      USUARIO: aluno41-pfsii
       SENHA: aluno41-pfsii
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
