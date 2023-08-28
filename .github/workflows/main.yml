@@ -8,7 +8,7 @@ jobs:
     env:
       USUARIO: aluno41-pfsii
       SENHA: aluno41-pfsii
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/teste'
     runs-on: ubuntu-latest
     
     steps:
