@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use('/integrante', rotaIntegrante);
 app.use('/evento', rotaEvento);
-app.use('/musica', rotaMusica);
+app.use('/musica', rotaMusica);  
 app.use('/material', rotaMaterial);
 app.use('/funcao', rotaFuncao);
 
